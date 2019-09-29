@@ -2,6 +2,8 @@
 
 body {
     background-color:rgb(255, 230, 221);
+
+  
 }
 
 h1 {
@@ -18,7 +20,12 @@ h2 {
     justify-content: center;
 
 }
-
+.imagePenny {
+    width: 250px;
+    position: relative;
+    left: 440px;
+    top: 25px;
+}
 
 .image1 {
     display: block;
@@ -26,24 +33,27 @@ h2 {
     margin-right: auto;
     width: 400px;  
 }
-
-img { 
-    display: inline-block;
+.imageEric {
     width: 250px;
-    
+    position: relative;
+    left: 480px;
+    top: 25px;
 }
-
 
 
 ul {
     font-family: sans-serif;
     margin-left: 25%;
+    
     text-align: justify;
     font-size: 17px;
     line-height: 30px;
+    padding: 20px;
+    background-color: rgb(186, 161, 167, 0.5)
+    
+
 
 }
-
 
 button {
     background-color: rgb(186, 161, 167);
@@ -57,14 +67,29 @@ button {
 
 p {
 font-family: sans-serif;
-margin-left: 25%;
+margin-left: 28%;
 text-align: justify;
 font-size: 17px;
 line-height: 30px;
+position: relative;
+top: 15px;
 }
 
 
-
-
-
-
+.polaroid {
+    background: #fff;
+    padding: 0.8rem;
+    box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+}
+.mybox {
+    width: 350px;
+    height: 1.5;
+    background-color: black;
+}
+.hero {
+    color: #fff;
+    line-height: 44px;
+    padding: 22px 80px 66px 80px;
+   
+  }
+  
