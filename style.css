@@ -10,7 +10,7 @@ body {
     width: 100%;
     height: 280px;
     position: absolute;
-    top: 520px;
+    top: 535px;
     z-index: 2;
     background-color: rgb(186, 161, 167, 0.8) 
      
@@ -60,9 +60,8 @@ ul {
     font-family: sans-serif;
     margin-left: 25%;
     position: relative;
-    bottom: 10px;
+    bottom: 17px;
     z-index: 3;
-    
     text-align: justify;
     font-size: 17px;
     line-height: 30px;
@@ -70,7 +69,7 @@ ul {
 
 }
 
-button {
+.Insta {
     background-color: rgb(186, 161, 167);
     margin-left: 25%;
     padding: 5px;
