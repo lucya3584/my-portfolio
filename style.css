@@ -2,10 +2,10 @@
 
 body {
     background-color:rgb(255, 230, 221);
-    height: 50%;
-    width: 100%;
+    
 }
 .floating-box {
+    /*strip of colour - full width*/
     float: left;
     width: 100%;
     height: 280px;
@@ -40,6 +40,7 @@ h2 {
 }
 
 .image1 {
+    /*photo of Lucy*/
     display: block;
     position: relative;
     z-index: 7;
@@ -51,12 +52,12 @@ h2 {
     width: 250px;
     position: relative;
     z-index: 5;
-    left: 480px;
-   
+    left: 480px;   
 }
 
 
 ul {
+    /*bullet point list*/
     font-family: sans-serif;
     margin-left: 25%;
     position: relative;
@@ -70,6 +71,7 @@ ul {
 }
 
 .Insta {
+    /*button*/
     background-color: rgb(186, 161, 167);
     margin-left: 25%;
     padding: 5px;
@@ -90,6 +92,7 @@ line-height: 30px;
 
 
 .polaroid {
+    /*design on photos*/
     background: #fff;
     padding: 0.8rem;
     box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
