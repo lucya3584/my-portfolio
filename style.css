@@ -21,14 +21,17 @@ h1 {
 font-family: verdana;
 color: rgb(107, 118, 123);
 font-size: 40px;
-display: flex;
-justify-content: center;
+position: relative;
+left: 38%;
+top: 28px;
 }
 
 h2 {
     font-family: sans-serif;
-    display: flex;
-    justify-content: center;
+    position: relative;
+    left: 38%;
+    top: 22px;
+
 
 }
 .imagePenny {
@@ -46,7 +49,8 @@ h2 {
     z-index: 7;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;  
+    width: 400px; 
+    top: 30px;  
 }
 .imageEric {
     width: 250px;
@@ -59,14 +63,16 @@ h2 {
 ul {
     /*bullet point list*/
     font-family: sans-serif;
-    margin-left: 25%;
+  
     position: relative;
+    left: 30%;
     bottom: 17px;
     z-index: 3;
     text-align: justify;
     font-size: 17px;
     line-height: 30px;
     padding: 20px;
+    
 
 }
 
