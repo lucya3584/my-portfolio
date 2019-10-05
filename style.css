@@ -60,19 +60,18 @@ h2 {
 }
 
 
-ul {
+.bio-list {
     /*bullet point list*/
     font-family: sans-serif;
-  
     position: relative;
-    left: 30%;
+    left: 32%;
     bottom: 17px;
     z-index: 3;
     text-align: justify;
     font-size: 17px;
     line-height: 30px;
     padding: 20px;
-    
+    list-style-type: none;
 
 }
 
@@ -88,11 +87,12 @@ ul {
 }
 
 p {
-font-family: sans-serif;
-margin-left: 28%;
-text-align: justify;
-font-size: 17px;
-line-height: 30px;
+    font-family: sans-serif;
+    position: relative;
+    left: 35%;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 30px;
 
 }
 
@@ -104,6 +104,41 @@ line-height: 30px;
     box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
 }
   
-ul {
-    list-style: circle inside none;
-}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  nav li {
+    float: left; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+  a {
+    display: block;
+    padding: 8px;
+  
+  }
+  
+  .active {
+      background-color: #e1bac9;
+  }
