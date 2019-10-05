@@ -17,7 +17,7 @@ body {
 
 img {
     position: relative;
-    bottom: 600px;
+    bottom: 550px;
     left: 900px;
     z-index: 2;
     transform: rotate(10deg);
@@ -40,15 +40,17 @@ h1 {
     color: rgb(107, 118, 123);
     height: 50%;
     width: 100%;
-    display: flex;
-    justify-content: center;
+    position: relative;
+    left: 40%;
+    top: 45px;
 }
 
 h2 {
     /*love to hear from you*/
     font-family: sans-serif;
-    display: flex;
-    justify-content: center;
+    position: relative;
+    left: 40%;
+    top: 38px;
 }
 
 
@@ -116,4 +118,45 @@ input:invalid {
   
   input:valid {
     border: 2px solid black;
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+  }
+
+
+  li {
+    float: left; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+  a {
+    display: block;
+    padding: 8px;
+  
+  }
+  
+  .active {
+      background-color: #e1bac9;
   }
