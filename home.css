@@ -1,18 +1,27 @@
 body {
-    background-color:rgb(255, 230, 221);
+    background-color: rgb(255, 230, 221);
     
 }
+
+h2 {
+    font-size: 100px;
+    font-family: sans-serif
+    
+}
+
 
 .floating-box {
     /*strip of colour - full width*/
     float: left;
     width: 100%;
-    height: 280px;
+    height: 200px;
     position: absolute;
     top: 535px;
  
-    background-color: rgb(186, 161, 167, 0.8)    
+    background-color: rgb(186, 161, 167)    
   }
+
+  
   
   ul {
     list-style-type: none;
