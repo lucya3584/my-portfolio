@@ -16,15 +16,17 @@
 <body>
     
 <div class="floating-box"></div>
-    
-<h1>Get in touch</h1>
+ 
+<div id="main-heading">
+    <h1>Get in touch</h1>
+</div>
+
 
 <main>
 
 <section>
 
     <nav class="menu">
-
         <ul>
             <li><a href="home.html">Home</a></li>
             <li><a href="index.html">About</a></li>
@@ -33,11 +35,12 @@
                         
     </nav>
               
-
+<div id="subheading">
     <h2>I'd love to hear from you...</h2>
+</div>
 
     <form>
-        <div>
+        <div id=form>
             <label for="name">Name:</label>
             <input type="text" id="name" name="user_name" required placeholder="add name here">
         </div>
@@ -59,14 +62,15 @@
         </div>
     </form>
 
-<div>
+
+<div id="Lucy-photo">
    <img src="images/20191004_155215.jpg" class="polaroid" alt="Photo of Lucy Adams"> 
 </div>
 
-
-
 </section>
+
 </main>
+
 
 <script>
 /*reset the form*/    
@@ -74,17 +78,11 @@ function myFunction() {
     document.getElementById("myForm").reset();
 }
 
-
-
 /*pop-up box*/
 function myFunction() {
   alert("text tbc").submit();
 }
-
-
 </script>
-
-
 
 
 </body>
