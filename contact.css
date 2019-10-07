@@ -37,19 +37,22 @@ form {
 h1 {
     /*Get in touch*/
     font-family: verdana;
-    color: rgb(107, 118, 123);
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 2px black;
     height: 50%;
     width: 100%;
     position: relative;
-    left: 40%;
-    top: 45px;
+    left: 36%;
+    top: 40px;
+    z-index: 5
 }
 
 h2 {
     /*love to hear from you*/
     font-family: sans-serif;
     position: relative;
-    left: 40%;
+    left: 37%;
     top: 38px;
 }
 
@@ -136,6 +139,7 @@ input:invalid {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 6;
 
   }
 
